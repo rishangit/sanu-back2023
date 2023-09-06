@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_theme_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BackgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color",
+      "required": true
+    },
+    "TextColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color",
+      "required": true
+    },
+    "BackgroundHoverColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color",
+      "required": true
+    },
+    "TextHoverColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color",
+      "required": true
+    },
+    "Padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.padding"
+    }
+  }
+}

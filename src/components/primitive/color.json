@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_primitive_colors",
+  "info": {
+    "displayName": "Color"
+  },
+  "options": {},
+  "attributes": {
+    "BaseColor": {
+      "type": "enumeration",
+      "enum": [
+        "Slate",
+        "Gray",
+        "Zinc",
+        "Neutral",
+        "Stone",
+        "Red",
+        "Orange",
+        "Amber",
+        "Yellow",
+        "Lime",
+        "Green",
+        "Emerald",
+        "Teal",
+        "Cyan",
+        "Sky",
+        "Blue",
+        "Indigo",
+        "Violet",
+        "Purple",
+        "Fuchsia",
+        "Pink",
+        "Rose"
+      ]
+    },
+    "ColorWeight": {
+      "type": "enumeration",
+      "enum": [
+        "Weight-50",
+        "Weight-100",
+        "Weight-200",
+        "Weight-300",
+        "Weight-400",
+        "Weight-500",
+        "Weight-600",
+        "Weight-700",
+        "Weight-800",
+        "Weight-900",
+        "Weight-950"
+      ]
+    }
+  }
+}
