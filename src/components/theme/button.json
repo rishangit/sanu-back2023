@@ -34,7 +34,8 @@
     "Padding": {
       "type": "component",
       "repeatable": false,
-      "component": "primitive.padding"
+      "component": "primitive.padding",
+      "required": true
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_primitive_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

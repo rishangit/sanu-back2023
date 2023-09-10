@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_addon_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "puzzle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.button"
+    }
+  }
+}

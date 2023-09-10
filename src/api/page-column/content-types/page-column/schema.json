@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_columns",
+  "info": {
+    "singularName": "page-column",
+    "pluralName": "page-columns",
+    "displayName": "PageRow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Addons": {
+      "type": "dynamiczone",
+      "components": [
+        "addon.text",
+        "addon.image"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Pages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::page.page",
+      "mappedBy": "PageRows"
+    }
+  }
+}
