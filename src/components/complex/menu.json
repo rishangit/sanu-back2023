@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_complex_menus",
+  "info": {
+    "displayName": "Menu",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.link"
+    },
+    "Children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "primitive.link"
+    }
+  }
+}

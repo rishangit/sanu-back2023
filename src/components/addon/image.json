@@ -2,19 +2,15 @@
   "collectionName": "components_addon_images",
   "info": {
     "displayName": "Image",
-    "icon": "landscape"
+    "icon": "landscape",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "component",
+      "repeatable": false,
+      "component": "complex.image"
     }
   }
 }

@@ -25,11 +25,11 @@
     "Height": {
       "type": "integer"
     },
-    "Logo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "complex.image",
-      "required": true
+    "HeaderRows": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::header-row.header-row",
+      "inversedBy": "Headers"
     }
   }
 }

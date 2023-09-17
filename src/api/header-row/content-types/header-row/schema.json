@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_rows",
+  "info": {
+    "singularName": "header-row",
+    "pluralName": "header-rows",
+    "displayName": "HeaderRow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Addons": {
+      "type": "dynamiczone",
+      "components": [
+        "addon.image",
+        "addon.text",
+        "addon.menu"
+      ]
+    },
+    "Headers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::header.header",
+      "mappedBy": "HeaderRows"
+    }
+  }
+}
