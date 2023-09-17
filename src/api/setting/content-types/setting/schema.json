@@ -4,17 +4,23 @@
   "info": {
     "singularName": "setting",
     "pluralName": "settings",
-    "displayName": "Setting"
+    "displayName": "Setting",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "theme": {
+    "Theme": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::theme.theme"
+    },
+    "Header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
     }
   }
 }

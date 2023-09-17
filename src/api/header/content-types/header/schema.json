@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BackgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color"
+    },
+    "TextColor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "primitive.color"
+    },
+    "Height": {
+      "type": "integer"
+    },
+    "Logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "complex.image",
+      "required": true
+    }
+  }
+}
