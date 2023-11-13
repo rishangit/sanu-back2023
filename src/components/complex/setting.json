@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_complex_settings",
+  "info": {
+    "displayName": "Setting",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "Desktop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "complex.advance-setting"
+    },
+    "Tablet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "complex.advance-setting"
+    },
+    "Mobile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "complex.advance-setting"
+    }
+  }
+}

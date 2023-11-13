@@ -19,16 +19,19 @@
     },
     "TextColor": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "primitive.color"
     },
     "Height": {
       "type": "integer"
     },
-    "HeaderRows": {
+    "Name": {
+      "type": "string"
+    },
+    "PageRows": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::header-row.header-row",
+      "target": "api::page-column.page-column",
       "inversedBy": "Headers"
     }
   }

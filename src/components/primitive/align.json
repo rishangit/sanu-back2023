@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_primitive_aligns",
+  "info": {
+    "displayName": "Align",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "VerticalAlign": {
+      "type": "enumeration",
+      "enum": [
+        "Top",
+        "Center",
+        "Bottom"
+      ]
+    },
+    "HorizontalAlign": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Center",
+        "Right"
+      ]
+    }
+  }
+}

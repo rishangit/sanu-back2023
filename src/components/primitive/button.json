@@ -2,14 +2,15 @@
   "collectionName": "components_primitive_buttons",
   "info": {
     "displayName": "Button",
-    "icon": "bold"
+    "icon": "bold",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Text": {
       "type": "string"
     },
-    "page": {
+    "Url": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::page.page"

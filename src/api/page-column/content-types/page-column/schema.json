@@ -12,13 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Addons": {
-      "type": "dynamiczone",
-      "components": [
-        "addon.text",
-        "addon.image"
-      ]
-    },
     "Name": {
       "type": "string"
     },
@@ -27,6 +20,23 @@
       "relation": "manyToMany",
       "target": "api::page.page",
       "mappedBy": "PageRows"
+    },
+    "AddonContents": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::addon-content.addon-content",
+      "inversedBy": "PageRows"
+    },
+    "Headers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::header.header",
+      "mappedBy": "PageRows"
+    },
+    "Setting": {
+      "type": "component",
+      "repeatable": false,
+      "component": "complex.setting"
     }
   }
 }

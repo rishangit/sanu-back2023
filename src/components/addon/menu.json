@@ -2,10 +2,21 @@
   "collectionName": "components_addon_menus",
   "info": {
     "displayName": "Menu",
-    "icon": "bulletList"
+    "icon": "bulletList",
+    "description": ""
   },
   "options": {},
   "attributes": {
+    "TextColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color"
+    },
+    "TextHoverColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color"
+    },
     "Items": {
       "type": "component",
       "repeatable": true,

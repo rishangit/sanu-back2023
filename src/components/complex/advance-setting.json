@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_complex_advance_settings",
+  "info": {
+    "displayName": "AdvanceSetting",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BackgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.color"
+    },
+    "Padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.padding"
+    },
+    "Align": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.align"
+    },
+    "Width": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.width"
+    },
+    "Height": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primitive.height"
+    }
+  }
+}

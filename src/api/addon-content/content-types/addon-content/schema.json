@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "addon_contents",
+  "info": {
+    "singularName": "addon-content",
+    "pluralName": "addon-contents",
+    "displayName": "AddonContent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Desktop": {
+      "type": "dynamiczone",
+      "components": [
+        "addon.image",
+        "addon.menu",
+        "addon.text"
+      ]
+    },
+    "Mobile": {
+      "type": "dynamiczone",
+      "components": [
+        "addon.image",
+        "addon.menu",
+        "addon.text"
+      ]
+    },
+    "Tablet": {
+      "type": "dynamiczone",
+      "components": [
+        "addon.image",
+        "addon.menu",
+        "addon.text"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Setting": {
+      "type": "component",
+      "repeatable": false,
+      "component": "complex.setting"
+    },
+    "PageRows": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::page-column.page-column",
+      "mappedBy": "AddonContents"
+    }
+  }
+}

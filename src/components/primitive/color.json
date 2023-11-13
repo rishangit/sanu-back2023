@@ -1,7 +1,8 @@
 {
   "collectionName": "components_primitive_colors",
   "info": {
-    "displayName": "Color"
+    "displayName": "Color",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -29,7 +30,9 @@
         "Purple",
         "Fuchsia",
         "Pink",
-        "Rose"
+        "Rose",
+        "Black",
+        "White"
       ]
     },
     "ColorWeight": {
